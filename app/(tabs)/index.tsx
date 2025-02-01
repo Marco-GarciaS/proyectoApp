@@ -16,22 +16,13 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
+        <ThemedText type="title">Bienvenido!</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
+        <ThemedText type="subtitle">Pantalla principal</ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12'
-            })}
-          </ThemedText>{' '}
-          to open developer tools.
+          Lorem ipsum dolor sit amet consectetur adipiscing, elit accumsan tellus diam rutrum sapien ullamcorper, tempus per in sodales neque. Neque ultrices a ad sapien porta ut velit facilisis cursus ligula vestibulum, id euismod ultricies nam luctus per inceptos ante turpis egestas. Gravida penatibus etiam quis odio rutrum faucibus suscipit congue nam facilisi aliquet ac varius, conubia cubilia laoreet sociosqu pulvinar neque nisl nascetur dictumst hac eleifend ullamcorper
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
